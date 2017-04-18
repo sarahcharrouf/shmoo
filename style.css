@@ -1,0 +1,103 @@
+/*
+ Theme Name:   Edin Child
+ Theme URI:    http://susannahritchie.com/edin-child/
+ Description:  Edin Child Theme
+ Author:       Sarah Charrouf
+ Author URI:   http://nonunoise.com
+ Template:     edin
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  edin-child
+*/
+
+@import url("../edin/style.css");
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+/* add custom css to masthead */
+/* remove page title */
+
+/* MAIN STYLES */
+header, footer, section, aside, time, article {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	background: #fff;
+	border-top: 6px solid #5a8ea4;
+	color: #3b3b3b;
+	font: 17px/1.65;
+	letter-spacing: -0.01em;
+}
+#page {
+	width: 960px;
+	margin: auto;
+}
+.page-header {
+	border-bottom: 1px solid #5a8ea4;
+	padding-bottom: 37px;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.page-header a {
+	text-decoration: none;
+}
+.page-header .top-logo {
+	color: inherit;
+	float: left;
+}
+.page-header .top-logo .title {
+	color: #5a8ea4;
+	font: bold 1.88em/1.3125;
+	letter-spacing: -0.034em;
+	display: block;
+	text-transform: uppercase;
+}
+.page-header .top-logo .sub-title {
+	color: inherit;
+	display: block;
+}
+.page-header .top-nav {
+	float: right;
+	padding-top: 22px;
+}
+.page-header .top-nav ul li {
+	display: inline;
+}
+.page-header .top-nav ul li a {
+	color: inherit;
+	font-size: 14px;
+	line-height: normal;
+	margin-left: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.main-content {
+	padding: 55px 47px 0 0;
+	float: left;
+	width: 69%;
+}
+#sidebar {
+	border-left: 1px solid #666;
+	padding: 55px 0;
+	float: left;
+	width: 31%;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "letter-gothic-std", 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #333;
+}
+p {
+font-family: 'Lora', serif;
+color: #666;
+}
