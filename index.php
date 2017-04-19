@@ -10,13 +10,6 @@
  *
  * @package Edin Child
  */
-<head>
-<script src="https://use.typekit.net/vas2uao.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
-
 
 get_header(); ?>
 
@@ -58,4 +51,11 @@ get_header(); ?>
 		</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
+<?php if ( have_posts() ): ?>
+	<div id="navigation" class="container">
+        <div class="left"><?php next_posts_link('&larr; <span>Older Posts</span>'); ?></div>
+        <div class="right"><?php previous_posts_link('<span>Newer Posts</span> &rarr;'); ?></div>
+    </div>
+<?php endif; ?>
+
 <?php get_footer(); ?>
