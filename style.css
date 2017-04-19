@@ -101,7 +101,10 @@ p {
 font-family: 'Lora', serif;
 color: #666;
 }
-
+.primary-navigation .menu-primary ul {
+	display: flex;
+	justify-content: center;
+}
 /* Next / prev */
 #navigation {
 	background: #fff;
