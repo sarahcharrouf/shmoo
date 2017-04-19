@@ -16,8 +16,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <script src="https://use.typekit.net/vas2uao.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans|Open+Sans" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <?php wp_head(); ?>
 </head>
